@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import DataAssessmentDashboard from '@/components/dashboard/DataAssessmentDashboard'
+import Disease from '@/components/dashboard/Disease'
 
 export const metadata: Metadata = {
   title: 'Data Systems Assessment Dashboard',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen p-4 bg-gray-50">
-      <DataAssessmentDashboard />
+      <Disease />
     </main>
   )
 }
