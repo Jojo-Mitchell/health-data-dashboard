@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Disease from '@/components/dashboard/Disease'
 
 export const metadata: Metadata = {
-  title: 'Data Systems Assessment Dashboard',
-  description: 'Assessment dashboard for DOH data systems and metrics',
+  title: 'COVID-19 Statistics Dashboard',
+  description: 'Real-time COVID-19 statistics dashboard with global and country-level data.',
 }
 
 export default function Home() {

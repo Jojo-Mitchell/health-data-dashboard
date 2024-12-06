@@ -7,7 +7,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Skeleton } from "@/components/ui/skeleton";
 import { CircleUser, AlertTriangle, Search, ActivitySquare } from "lucide-react";
 
-// Create DashboardSkeleton as a separate component
 const DashboardSkeleton = () => (
   <div className="space-y-6">
     <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -28,7 +27,6 @@ const DashboardSkeleton = () => (
   </div>
 );
 
-// Main component
 const DiseaseDashboard = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
