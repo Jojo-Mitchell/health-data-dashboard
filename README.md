@@ -95,8 +95,8 @@ NEXT_PUBLIC_API_BASE_URL=https://disease.sh/v3/covid-19
 ## API Integration
 The dashboard uses the disease.sh API for COVID-19 data:
 
-/countries - Country-specific statistics
-/all - Global statistics
+* countries - Country-specific statistics
+* all - Global statistics
 
 ## Contributing
 
@@ -109,8 +109,7 @@ The dashboard uses the disease.sh API for COVID-19 data:
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details
 
-Acknowledgments
-
-/disease.sh for providing the COVID-19 API
-/shadcn/ui for the component library
-/Recharts for chart components
+## Acknowledgments
+* disease.sh for providing the COVID-19 API
+* shadcn/ui for the component library
+* Recharts for chart components
