@@ -36,7 +36,7 @@ A modern, interactive dashboard built with Next.js for tracking and visualizing 
 | API | disease.sh |
 
 ## Project Structure
-src/
+> src/
 ├── app/
 │   ├── components/
 │   │   ├── dashboard/
@@ -55,6 +55,8 @@ src/
 └── types/
 ├── disease.ts
 └── system.ts
+> 
+
 
 ## Prerequisites
 - Node.js 20.17.0 or later
