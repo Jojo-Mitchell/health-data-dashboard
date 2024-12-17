@@ -35,29 +35,6 @@ A modern, interactive dashboard built with Next.js for tracking and visualizing 
 | Icons | Lucide React |
 | API | disease.sh |
 
-## Project Structure
-> src/
-├── app/
-│   ├── components/
-│   │   ├── dashboard/
-│   │   │   └── Disease.tsx
-│   │   └── ui/
-│   │       ├── card.tsx
-│   │       ├── input.tsx
-│   │       ├── select.tsx
-│   │       └── skeleton.tsx
-│   ├── layout.tsx
-│   └── page.tsx
-├── lib/
-│   └── utils.ts
-├── services/
-│   └── diseaseService.ts
-└── types/
-├── disease.ts
-└── system.ts
-> 
-
-
 ## Prerequisites
 - Node.js 20.17.0 or later
 - npm/yarn package manager
