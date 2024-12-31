@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write    # Add this for deployment permissions
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -31,5 +31,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: out
-          branch: gh-pages     # Changed from main to gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }}  # Add this line
+          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }} 

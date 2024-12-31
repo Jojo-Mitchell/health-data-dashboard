@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: process.env.NODE_ENV === 'production' ? '/data-assessment-dashboard' : '',
   images: {
     unoptimized: true,
   },
-  basePath: '/health-data-dashboard',
-}
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/data-assessment-dashboard' : '',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
