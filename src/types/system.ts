@@ -28,17 +28,3 @@ export interface SystemData {
   
   export type SystemSortFields = keyof SystemData;
   export type SortDirection = 'asc' | 'desc';
-  
-  // Interface for raw disease.sh data
-  interface DiseaseCountryData {
-    country: string;
-    cases: number;
-    todayCases: number;
-    deaths: number;
-    recovered: number;
-    active: number;
-    critical: number;
-    tests: number;
-    population: number;
-    updated: number;
-  }
