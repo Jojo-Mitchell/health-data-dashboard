@@ -85,9 +85,6 @@ The dashboard uses the disease.sh API for COVID-19 data:
 4. Push to the branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details
-
 ## Acknowledgments
 * disease.sh for providing the COVID-19 API
 * shadcn/ui for the component library
