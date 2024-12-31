@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -15,8 +16,6 @@ import {
     MetricType,
     SortConfig, 
   } from '../../types/disease';
-
-const ITEMS_PER_PAGE = 10;
 
 const DashboardSkeleton = () => (
   <div className="space-y-6" data-testid="dashboard-skeleton">
@@ -347,11 +346,13 @@ const Disease = () => {
                     <tr key={country.country} className="hover:bg-gray-50">
                       <td className="p-4">
                         <div className="flex items-center space-x-2">
-                          <img 
-                            src={country.countryInfo.flag} 
-                            alt={`${country.country} flag`}
-                            className="w-6 h-4 object-cover rounded shadow-sm"
-                          />
+                        <Image 
+                          src={country.countryInfo.flag} 
+                          alt={`${country.country} flag`}
+                          width={24}
+                          height={16}
+                          className="object-cover rounded shadow-sm"
+                        />
                           <span className="font-medium text-gray-800">
                             {country.country}
                           </span>
